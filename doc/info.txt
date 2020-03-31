@@ -1,0 +1,13 @@
+métodos/verbos HTTP:
+
+GET: usado para buscar/listar alguma informação na aplicação.
+POST: usado para criar alguma informação na aplicação.
+PUT: usado para alterar alguma informação na aplicação.
+DELETE: usado para deletar alguma informação na aplicação.
+
+
+Tipos de Parâmetros:
+
+Query Params: parâmetros nomeados enviados na rota. (filtros, paginação)
+Route Params: parâmetros utilizado para identificar recursos. 
+Request Body: corpo da requisição, utilizado para criar ou alterar recursos.
