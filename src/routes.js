@@ -7,6 +7,10 @@ const SessionController = require('../src/controllers/SessionController');
 
 const routes = express.Router();
 
+// Default Route
+routes.get("/", (request, response) => {
+  response.json({ "msg" : "God is not here..." })
+})
 
 // Ong Routes
 routes.get('/ongs', OngController.index);
